@@ -1,0 +1,5 @@
+Username: danial
+Password: danial
+wins: 0
+loses: 0
+gamesPlayed: 0

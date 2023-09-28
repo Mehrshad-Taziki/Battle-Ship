@@ -1,0 +1,5 @@
+Username: ooo
+Password: ooo
+wins: 0
+loses: 0
+gamesPlayed: 0

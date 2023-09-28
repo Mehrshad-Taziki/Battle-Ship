@@ -1,0 +1,5 @@
+Username: nima
+Password: nima
+Wins: 1
+Loses: 0
+GamesPlayed: 1

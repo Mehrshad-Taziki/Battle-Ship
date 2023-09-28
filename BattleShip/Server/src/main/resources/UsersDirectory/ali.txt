@@ -1,0 +1,5 @@
+Username: ali
+Password: ali
+Wins: 2
+Loses: 0
+GamesPlayed: 2

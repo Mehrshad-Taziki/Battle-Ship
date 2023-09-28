@@ -1,0 +1,5 @@
+Username: bruh
+Password: bruh
+wins: 0
+loses: 0
+gamesPlayed: 0
