@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane onMouseClicked="#watch" prefHeight="85.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Graphics.Views.GameComponentView">
+   <children>
+      <Label fx:id="playerOneName" alignment="CENTER" layoutX="134.0" layoutY="52.0" prefHeight="18.0" prefWidth="82.0" text="Player One" />
+      <Label fx:id="playerTwoName" alignment="CENTER" layoutX="230.0" layoutY="52.0" prefHeight="18.0" prefWidth="82.0" text="Player Two" />
+      <Label layoutX="217.0" layoutY="53.0" text="Vs" />
+      <Label layoutX="190.0" layoutY="5.0" text="Turns Played" />
+      <Label fx:id="turnsCount" alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="25.0" prefHeight="18.0" prefWidth="82.0" />
+      <Label layoutX="324.0" layoutY="16.0" text="Destroyed Ships : " />
+      <Label layoutX="347.0" layoutY="53.0" text="Intact Ships : " />
+      <Line endY="85.0" layoutX="306.0" strokeWidth="2.0" />
+      <Line endY="85.0" layoutX="140.0" strokeWidth="2.0" />
+      <Label layoutX="14.0" layoutY="16.0" text="Destroyed Ships : " />
+      <Label layoutX="37.0" layoutY="53.0" text="Intact Ships : " />
+      <Label fx:id="playerOneDShips" layoutX="109.0" layoutY="16.0" />
+      <Label fx:id="playerOneIShips" layoutX="108.0" layoutY="53.0" />
+      <Label fx:id="playerTwoDShips" layoutX="418.0" layoutY="17.0" />
+      <Label fx:id="playerTwoIShips" layoutX="418.0" layoutY="53.0" />
+   </children>
+</AnchorPane>
